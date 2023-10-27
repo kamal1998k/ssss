@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color:#201B1B;
+        }
+        .continer{
+          
+           
+        }
+        .title{
+            text-align: center;
+            color: aliceblue;
+            font-size: 35px;
+            
+        }
+        .title p{
+          margin-top: -40px;
+            
+        }
+        .con{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .co1{
+            width: 40%;
+            text-align: center;
+            display: block;
+            justify-content: center;
+            color: rgb(197, 197, 187);
+            font-size: 32px;
+        }
+        .co2{
+            width: 60%;
+            text-align: center;
+          align-items: center;
+          display: flex;
+    justify-content: center; /* Center the child element horizontally */
+    align-items: center; 
+    
+        }
+        .inp{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin: auto;
+          align-items: center;
+       
+        }
+        input{
+            margin-bottom: 20px;
+            font-size: 30px;
+            border-radius: 20px;
+            background-color: black;
+            border: none;
+            border-bottom: solid 2px rgb(31, 31, 50);
+            padding: 10px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 10px;
+            background-color: blue;
+            color: aliceblue;
+            font-size: 38px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="continer">
+        <div class="title">
+            <h1>link up</h1>
+            <p>amusez-vous avec vous</p>
+        </div>
+        <div class="con">
+            <div class="co1">
+                <h3>Vous pouvez créer un email et ajouter les numéro de vos amies et amusez.</h3>
+            </div>
+            <div class="co2">   <video width="640" height="360" controls muted loop autoplay>
+                <!-- Provide the video file as the source -->
+                <source src="1.mp4" type="video/mp4">
+              
+                
+            </video></div>
+        </div>
+        <div class="con">
+            <div class="co1">
+                <h1>créer email</h1>
+              <div class="inp">
+                <input type="text" placeholder="le nom:">
+                <input type="email" placeholder="email:">
+                <input type="password" placeholder="password:">
+              </div>
+            </div>
+            <div class="co2">
+                <button>continue</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
